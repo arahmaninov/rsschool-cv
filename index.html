@@ -4,54 +4,82 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>CV#2. HTML, CSS & Git Basics</title>
+	<link rel="icon" href="assets/favicon.ico">
+	<title>CV</title>
 </head>
 <body>
-	<h1>Anton Rahmaninov</h1>
-	<hr>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+					<li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+				</ul>
+			
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<h1>Anton Rahmaninov</h1>
+			<img src="assets/img/photo.jpg" alt="my photo">
+			<hr>
 
-	<h3>Contacts</h3>
-	<ul>
-		<li><strong>E-mail:</strong> arahmaninov @ yandex . ru</li>
-		<li><strong>GitHub:</strong> <a href="https://github.com/arahmaninov">arahmaninov</a></li>
-	</ul>
+			<h2 id="contacts">Contacts</h2>
+			<ul>
+				<li><strong>E-mail:</strong> arahmaninov @ yandex . ru</li>
+				<li><strong>GitHub:</strong> <a href="https://github.com/arahmaninov">arahmaninov</a></li>
+			</ul>
 
-	<h3>Summary</h3>
-	<p>I'm learning Python and Front-End development. I'm interested in developing web applications.</p>
+			<h2 id="summary">Summary</h2>
+			<p>I'm learning Python and Front-End development. I'm interested in developing web applications.</p>
 
-	<h3>Skills</h3>
-	<ul>
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>Git</li>
-		<li>Python</li>
-	</ul>
+			<h2 id="skills">Skills</h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Git</li>
+				<li>Python</li>
+			</ul>
 
-	<h3>Code example</h3>
-	<pre>
-		<code>
-def fizz_buzz(number):
-	if number % 3 == 0 and number % 5 == 0:
-		return "FizzBuzz"
-	if number % 3 == 0:
-		return "Fizz"
-	if number % 5 == 0:
-		return "Buzz"
-	return number
-		</code>
-	</pre>
+			<h2 id="code">Code example</h2>
+			<pre>
+				<code>
+		def fizz_buzz(number):
+			if number % 3 == 0 and number % 5 == 0:
+				return "FizzBuzz"
+			if number % 3 == 0:
+				return "Fizz"
+			if number % 5 == 0:
+				return "Buzz"
+			return number
+				</code>
+			</pre>
 
-	<h3>Experience</h3>
-	<p>Developed simple python scripts.</p>
+			<h2 id="experience">Experience</h2>
+			<p>Developed simple python scripts.</p>
 
-	<h3>Education and courses</h3>
-	<ul>
-		<li>Stepik: <a href="https://stepik.org/cert/933350">Python basics</a></li>
-		<li><a href="https://www.youtube.com/c/Coreyms">Corey Shafer's tutorials</a></li>
-		<li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
-	</ul>
+			<h2 id="education">Education and courses</h2>
+			<ul>
+				<li>Stepik: <a href="https://stepik.org/cert/933350">Python basics</a></li>
+				<li><a href="https://www.youtube.com/c/Coreyms">Corey Shafer's tutorials</a></li>
+				<li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+			</ul>
 
-	<h3>English</h3>
-	<p>Upper-intermediate (B2)</p>
+			<h2 id="english">English</h2>
+			<p>Upper-intermediate (B2)</p>
+		</div>
+		
+	</main>
+	<footer class="footer">
+		<div class="container">
+			
+		</div>
+	</footer>
 </body>
 </html>
