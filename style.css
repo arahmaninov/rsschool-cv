@@ -16,13 +16,16 @@ body{
 img{
   width: 200px;
   border-radius: 50%;
+  display: block;
+  margin: 0px auto;
 }
 
 pre code {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
-  padding: 20px;
+  padding: 1px;
+
 }
 
 .header{
@@ -30,6 +33,7 @@ pre code {
 }
 .main{
   border: 1px solid red;
+  margin: 0px auto;
 }
 .footer{
   border: 1px solid red;
@@ -40,11 +44,26 @@ pre code {
 }
 .nav-list{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
 }
 .nav-link{
   padding: 0 20px;
   line-height: 50px;
+  transition: .3s;
+  text-decoration: none;
+}
+.nav-link:link{
+  color: gray;
+}
+.nav-link:visited{
+  color: gray;
+}
+.nav-link:hover{
+  color: darkgray;
+  text-decoration: underline;
+}
+.section-title{
+  text-align: center;
 }
