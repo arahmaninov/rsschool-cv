@@ -1,5 +1,5 @@
 # rsschool-cv
 
-[link](https://arahmaninov.github.io/rsschool-cv/cv)
+https://arahmaninov.github.io/rsschool-cv/cv
 
-[link](https://arahmaninov.github.io/rsschool-cv/)
+https://arahmaninov.github.io/rsschool-cv/
