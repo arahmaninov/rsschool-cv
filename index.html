@@ -4,54 +4,93 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>CV#2. HTML, CSS & Git Basics</title>
+	<link rel="icon" href="assets/favicon.ico">
+	<title>CV</title>
 </head>
 <body>
-	<h1>Anton Rahmaninov</h1>
-	<hr>
-
-	<h3>Contacts</h3>
-	<ul>
-		<li><strong>E-mail:</strong> arahmaninov @ yandex . ru</li>
-		<li><strong>GitHub:</strong> <a href="https://github.com/arahmaninov">arahmaninov</a></li>
-	</ul>
-
-	<h3>Summary</h3>
-	<p>I'm learning Python and Front-End development. I'm interested in developing web applications.</p>
-
-	<h3>Skills</h3>
-	<ul>
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>Git</li>
-		<li>Python</li>
-	</ul>
-
-	<h3>Code example</h3>
-	<pre>
-		<code>
-def fizz_buzz(number):
-	if number % 3 == 0 and number % 5 == 0:
-		return "FizzBuzz"
-	if number % 3 == 0:
-		return "Fizz"
-	if number % 5 == 0:
-		return "Buzz"
-	return number
-		</code>
-	</pre>
-
-	<h3>Experience</h3>
-	<p>Developed simple python scripts.</p>
-
-	<h3>Education and courses</h3>
-	<ul>
-		<li>Stepik: <a href="https://stepik.org/cert/933350">Python basics</a></li>
-		<li><a href="https://www.youtube.com/c/Coreyms">Corey Shafer's tutorials</a></li>
-		<li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
-	</ul>
-
-	<h3>English</h3>
-	<p>Upper-intermediate (B2)</p>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+					<li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+				</ul>
+			
+			</nav>
+		</div>
+	</header>
+	<main class="main main-container">
+		<div class="container">
+			<section class="section" id="profile">
+				<h1 class="section-title">Anton Rahmaninov</h1>
+				<img class="avatar" src="assets/img/photo.jpg" alt="Avatar">
+				<hr>
+			</section>
+			<section class="section" id="contacts">
+				<h2 class="section-title">Contacts</h2>
+				<ul>
+					<li><strong>E-mail:</strong> arahmaninov @ yandex . ru</li>
+					<li><strong>GitHub:</strong> <a href="https://github.com/arahmaninov">arahmaninov</a></li>
+				</ul>
+			</section>
+			<section class="section" id="summary">
+				<h2 class="section-title">Summary</h2>
+				<p>I'm learning Python and Front-End development. I'm interested in developing web applications.</p>
+			</section>
+			<section class="section" id="skills">
+				<h2 class="section-title">Skills</h2>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Git</li>
+					<li>Python</li>
+				</ul>
+			</section>
+			<section class="section" id="code">
+				<h2 class="section-title">Code example</h2>
+				<pre>
+					<code>
+	def fizz_buzz(number):
+		if number % 3 == 0 and number % 5 == 0:
+			return "FizzBuzz"
+		if number % 3 == 0:
+			return "Fizz"
+		if number % 5 == 0:
+			return "Buzz"
+		return number
+					</code>
+				</pre>
+			</section>
+			<section class="section" id="experience">
+				<h2 class="section-title">Experience</h2>
+				<p>Developed simple python scripts: <a href="https://github.com/arahmaninov/fulllengthaudiobooks">Github</a> </p>
+			</section>
+			<section class="section" id="education">
+				<h2 class="section-title">Education and courses</h2>
+				<ul>
+					<li>Stepik: <a href="https://stepik.org/cert/933350">Python basics</a></li>
+					<li><a href="https://www.youtube.com/c/Coreyms">Corey Shafer's tutorials</a></li>
+					<li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+				</ul>
+			</section>
+			<section class="section" id="english">
+				<h2 class="section-title">English</h2>
+				<p>Upper-intermediate (B2)</p>
+			</section>		
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<ul class="footer-list">
+				<li class="footer-item">&copy; 2022 <a href="https://github.com/arahmaninov">arahmaninov</a></li>
+				<li class="footer-rslogo"><a href="https://rs.school/js/"><img class="rslogo" src="assets/rs_school_js.svg" alt="RS school"></a></li>
+			</ul>
+		</div>
+	</footer>
 </body>
 </html>

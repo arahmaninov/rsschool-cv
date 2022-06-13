@@ -1,6 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+html{
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 pre code {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
-  padding: 20px;
+  padding: 1px;
+
+}
+
+.header{
+  
+}
+.main{
+  
+  margin: 0px auto;
+}
+.footer{
+  
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.avatar{
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0px auto;
+}
+.rslogo{
+  width: 100px;
+}
+.nav-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav-link{
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+  text-decoration: none;
+}
+.nav-link:link{
+  color: gray;
+}
+.nav-link:visited{
+  color: gray;
+}
+.nav-link:hover{
+  color: darkgray;
+  text-decoration: underline;
+}
+.section-title{
+  text-align: center;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px 0px;
+  list-style: none;
+}
+.footer-item a{
+  text-decoration: none;
 }
